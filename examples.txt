@@ -1,0 +1,34 @@
+<?php
+
+namespace My_Project\Admin_Pages;
+
+//../Admin_Pages/class-main-page.php
+
+class Main_Page {
+  
+}
+
+//../Admin_Pages/interface-init.php
+
+interface Init {
+  
+}
+
+//../Admin_Pages/class-main-page.php
+
+class Main_Page implements Init {
+  
+}
+
+//../Admin_Pages/trait-my-trait.php
+
+trait My_Trait {
+  
+}
+
+//../Admin_Pages/class-main-page.php
+
+class Main_Page {
+  use My_Trait
+}
+
